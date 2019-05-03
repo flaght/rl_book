@@ -1,7 +1,7 @@
 ### 数据处理
 接口名 || 说明
 ---|---|---
-winsorize  | [data/winsorize](data/winsorize.md) | 去极值
+winsorize  | [data/winsorize](rl_calc/data/winsorize.md) | 去极值
 standardize | [data/standardize](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/standardize)| 标准化
 neutralize | [data/neutralize](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/neutralize)| 中性化
 factor_processing | [data/factor_processing](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/factor_processing)| 集成化处(包含去极大值，标准化，中性化)
