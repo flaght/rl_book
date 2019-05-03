@@ -1,0 +1,2 @@
+{  "plugins":  ["disqus"],  "pluginsConfig":  {  "disqus":  {  "shortName":  "RL"  }  }  }
+
