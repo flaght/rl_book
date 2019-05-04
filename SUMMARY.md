@@ -1,7 +1,7 @@
 # 融量平台帮助文档
 
-* [融量介绍](README.md)
-* 融量量化平台说明文档
+* 1. [融量介绍](README.md)
+* 2. 融量量化平台说明文档
     * 数据说明
     	* 财务数据
     		* 报表期更新
@@ -26,10 +26,10 @@
     		* [指数成分股](rl_jupyter/data/constitution/index.md) 
     * 接口说明
     	* 数据调用接口
-    		* [数据库调用] (rl_jupyter/interface/db.md)
-    		* [本地文件调用] (rl_jupyter/interface/file.md) 
+    		* [数据库调用](rl_jupyter/interface/db.md)
+    		* [本地文件调用](rl_jupyter/interface/file.md) 
     * [例子说明](rl_jupyter/example/Quick_Start_2.md)
-* [融量计算HTTP API说明文档](rl_calc/interface_help.md)
+* 3. [融量计算HTTP API说明文档](rl_calc/interface_help.md)
 	* [数据处理接口](rl_calc/interface_help.md)
 		* [winsorize](rl_calc/data/winsorize.md)
 		* [standardize](rl_calc/data/standardize.md)
@@ -50,3 +50,9 @@
 	* [组合优化接口](rl_calc/interface_help.md)
 		* [linear_builder](rl_calc/portfolio/linear_builder.md)
 		* [mean_variance_builder](rl_calc/portfolio/mean_variance_builder.md) 
+* 4. [融量开源项目](rl_open/README.md)
+	* [alpha-mind](rl_open/alpha-mind.md)
+	* [Finance-Python](rl_open/Finance-Python.md)
+	* [fantatic](rl_open/fantatic.md)
+	* [BasicCore](rl_open/BasicCore.md)
+	* [mylib](rl_open/mylib.md)
