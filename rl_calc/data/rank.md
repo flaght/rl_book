@@ -1,8 +1,8 @@
-### data/winsorize
-去极值
+### data/rank
+按从小达到的顺序进行分组，返回每个因子属于的组别
 
 ### URL
-http://api.crystal.irongliang.com/data/v1/winsorize
+http://api.crystal.irongliang.com/data/v1/rank
 
 ### 支持格式
 JSON
@@ -24,19 +24,17 @@ POST FORM-DATA
 ---|---|---|---|
 access_token  | true | string|采用OAuth授权方式为必填参数，OAuth授权后获得
 uid | true | int| 用户ID
-data_sets|true| object|需要去极值的数据集，必选用json的list格式
-num_stds|true| int|标准差倍数
+data_sets|true| object|需要数据集，必选用json的list格式
 
 ### 返回结果集
 ```json
 {
     "code": 200,
-    "result": "[23189000000.0,23189000000.0,19153000000.0,19153000000.0,
-12554000000.0,12554000000.0,6214000000.0,6214000000]"
+    "result": "[38.5,38.5,18,4, 18.5]"
 }
 ```
 
 字段名|字段类型| 字段说明
 ---|---|---|
 code  | int |操作结果
-result | object | 去极值后结果
+result | object | 元素的位置序列

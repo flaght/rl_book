@@ -1,8 +1,8 @@
-### data/winsorize
-去极值
+### data/standardize
+标准化
 
 ### URL
-http://api.crystal.irongliang.com/data/v1/winsorize
+http://api.crystal.irongliang.com/data/v1/standardize
 
 ### 支持格式
 JSON
@@ -25,7 +25,6 @@ POST FORM-DATA
 access_token  | true | string|采用OAuth授权方式为必填参数，OAuth授权后获得
 uid | true | int| 用户ID
 data_sets|true| object|需要去极值的数据集，必选用json的list格式
-num_stds|true| int|标准差倍数
 
 ### 返回结果集
 ```json
@@ -39,4 +38,4 @@ num_stds|true| int|标准差倍数
 字段名|字段类型| 字段说明
 ---|---|---|
 code  | int |操作结果
-result | object | 去极值后结果
+result | object | 标准化后的结果
