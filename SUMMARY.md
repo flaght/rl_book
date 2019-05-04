@@ -1,6 +1,4 @@
 # 融量平台帮助文档
-
-* 融量介绍
 * 融量量化平台说明文档
     * 数据说明
     	* 财务数据
@@ -50,7 +48,7 @@
 	* [组合优化接口](rl_calc/interface_help.md)
 		* [linear_builder](rl_calc/portfolio/linear_builder.md)
 		* [mean_variance_builder](rl_calc/portfolio/mean_variance_builder.md) 
-* [融量开源项目](rl_open/README.md)
+* 融量开源项目
 	* [alpha-mind](rl_open/alpha-mind.md)
 	* [Finance-Python](rl_open/Finance-Python.md)
 	* [fantatic](rl_open/fantatic.md)
