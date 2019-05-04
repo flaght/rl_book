@@ -3,7 +3,7 @@
 * [融量介绍](README.md)
 * [融量量化平台说明文档](rl_jupyter/README.md)
     * [数据说明](rl_jupyter/data/)
-    	* [财务数据](rl_jupyter/data/财务数据)
+    	* [财务数据](rl_jupyter/data/财务)
     		* [报表期更新](rl_jupyter/data/财务/报表期更新)
     			* [财务指标](rl_jupyter/data/财务/报表期更新/财务表.md)
     			* [利润数据](rl_jupyter/data/财务/报表期更新/利润表.md) 
