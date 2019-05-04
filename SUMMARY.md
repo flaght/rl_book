@@ -2,7 +2,7 @@
 
 * [融量介绍](README.md)
 * [融量量化平台说明文档](rl_jupyter/README.md)
-    * [数据说明](rl_jupyter/data/)
+    * [数据说明](rl_jupyter/data)
     	* [财务数据](rl_jupyter/data/finance)
     		* [报表期更新](rl_jupyter/data/finance/report_update)
     			* [财务指标](rl_jupyter/data/finance/report_update/indicator.md)
