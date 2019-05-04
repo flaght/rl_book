@@ -1,15 +1,15 @@
 # 融量平台帮助文档
 
 * [融量介绍](README.md)
-* [融量量化平台说明文档](rl_jupyter/README.md)
-    * [数据说明](rl_jupyter/data)
-    	* [财务数据](rl_jupyter/data/finance)
-    		* [报表期更新](rl_jupyter/data/finance/report_update)
+* 融量量化平台说明文档
+    * 数据说明
+    	* 财务数据
+    		* 报表期更新
     			* [财务指标](rl_jupyter/data/finance/report_update/indicator.md)
     			* [利润数据](rl_jupyter/data/finance/report_update/income.md) 
     			* [现金流数据](rl_jupyter/data/finance/report_update/cash_flow.md) 
     			* [资产负债数据](rl_jupyter/data/finance/report_update/balance.md) 
-    		* [每日更新](rl_jupyter/data/finance/every_update)
+    		* 每日更新
     			* [市值数据表](rl_jupyter/data/finance/every_update/valuation.md)
     			* [财务指标](rl_jupyter/data/finance/every_update/indicator.md)
     			* [利润数据](rl_jupyter/data/finance/every_update/income.md) 
@@ -18,13 +18,13 @@
     			* [母公司利润表](rl_jupyter/data/finance/every_update/stk_income_statement_parent.md)
     			* [母公司现金流量表](rl_jupyter/data/finance/every_update/stk_cashflow_statement_parent.md)
     			* [母公司资产负债表](rl_jupyter/data/finance/every_update/stk_balance_statement_parent.md)
-    	* [行情数据](rl_jupyter/data/market)
+    	* 行情数据
     		* [股票日行情](rl_jupyter/data/market/stock_daily.md)
     		* [指数日行情](rl_jupyter/data/market/index_daily.md)
-    	* [成分股](rl_jupyter/data/constitution)
+    	* 成分股
     		* [行业成分股](rl_jupyter/data/constitution/industry.md)
     		* [指数成分股](rl_jupyter/data/constitution/index.md) 
-    * [接口说明](rl_jupyter/interface/)
+    * 接口说明
     * [例子说明](rl_jupyter/example.md)
 * [融量计算HTTP API说明文档](rl_calc/interface_help.md)
 	* [数据处理接口](rl_calc/interface_help.md)
