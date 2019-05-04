@@ -1,13 +1,13 @@
 ### 数据处理
 接口名 || 说明
 ---|---|---
-winsorize  | [data/winsorize](rl_calc/data/winsorize.md) | 去极值
-standardize | [data/standardize](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/standardize)| 标准化
-neutralize | [data/neutralize](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/neutralize)| 中性化
-factor_processing | [data/factor_processing](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/factor_processing)| 集成化处(包含去极大值，标准化，中性化)
-rank | [data/rank](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/rank)| 从小到大排序，返回序列值
-quantile | [data/quantile](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/quantile)| 从小到大顺序进行分组，返回每个因子属于的组别
-percentile | [data/percentile](http://git.irongliang.com/KerryDong/open_crystal/wikis/data/percentile)| 元素的百分位
+winsorize  | [data/winsorize](data/winsorize.html) | 去极值
+standardize | [data/standardize](data/standardize.html)| 标准化
+neutralize | [data/neutralize](data/neutralize.html)| 中性化
+factor_processing | [data/factor_processing](data/factor_processing.html)| 集成化处(包含去极大值，标准化，中性化)
+rank | [data/rank](data/rank.html)| 从小到大排序，返回序列值
+quantile | [data/quantile](data/quantile.html)| 从小到大顺序进行分组，返回每个因子属于的组别
+percentile | [data/percentile](data/percentile.html)| 元素的百分位
 
 ### 组合优化
 接口名 || 说明
