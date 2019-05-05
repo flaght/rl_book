@@ -1,5 +1,5 @@
 ### date/advance_date
-指定日期推算交易日
+计算指定日期多少天前/日的日期
 
 ### URL
 http://api.crystal.irongliang.com/date/v1/advance_date
@@ -30,9 +30,8 @@ params|true| object| 参数值集 list格式， 0 交易日 为格式为'2019-12
 ```json
 {
   "code": 200,
-  "result": [
+  "result":
     "2017-03-25"
-  ]
 }
 ```
 

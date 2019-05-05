@@ -24,7 +24,7 @@ POST FORM-DATA
 ---|---|---|---|
 access_token  | true | string|采用OAuth授权方式为必填参数，OAuth授权后获得
 uid | true | int| 用户ID
-params|true| object| 参数值集 list格式， 0 交易所类型; 1 开始日期; 2 结束日期; 3. 日期类别 1.交易日 0.非交易日 为格式为'2019-12-24' 
+params|true| object| 参数值集 list格式， 0 交易所类型; 1 开始日期; 2 结束日期; 3. 目前默认参数只使用1 
 
 ### 返回结果集
 ```json

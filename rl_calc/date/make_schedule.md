@@ -24,7 +24,7 @@ POST FORM-DATA
 ---|---|---|---|
 access_token  | true | string|采用OAuth授权方式为必填参数，OAuth授权后获得
 uid | true | int| 用户ID
-params|true| object| 参数值集 0 开始日期; 1 结束日期; 2.间隔日;3.交易所
+params|true| object| 参数值集 0 开始日期; 1 结束日期; 2.间隔日,间隔日需要采用字符串形式，如‘1b’,'2m'形式，m:月 d:日 y:年  ; 3.交易所
 
 ### 返回结果集
 ```json
