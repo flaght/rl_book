@@ -9,3 +9,4 @@ iname| 指数名称
 symbol|股票代码|带后缀.XSHE/.XSHG
 sname|股票名称
 weighting|在成分股占的权重
+
